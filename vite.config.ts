@@ -3,11 +3,11 @@ import react from "@vitejs/plugin-react";
 
 export default ({ mode }) => {
   process.env = { ...process.env, ...loadEnv(mode, process.cwd()) };
-  const base = process.env.MODE === "production" ? "/frontendmentor/" : "/";
-
+  const baseroute =
+    process.env.NODE_ENV === "production" ? "/frontendmentor/" : "/";
   // https://vitejs.dev/config/
   return defineConfig({
-    base: "/frontendmentor/",
+    base: baseroute,
     plugins: [react()],
   });
 };
