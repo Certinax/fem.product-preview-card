@@ -25,7 +25,7 @@ function App() {
             <h1 className="text-4xl font-serif py-2">
               Gabrielle Essence Eau De Parfum
             </h1>
-            <p className="text-fem-dark-grayish-blue">
+            <p className="text-fem-dark-grayish-blue text-sm">
               A floral, solar and voluptuous interpretation composed by Olivier
               Polge, Perfumer-Creator for the House of CHANEL.
             </p>
